@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="cal.css" />
+    
+</head>
+
+
+
+<body>
+    <center>
+        <form name="Calculator">
+            <table id="table" style="border: 3px ridge green">
+                <tr>
+                    <td colspan="5">
+                        <input style="width:350px" type="text" name="input">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" value="sin" class="buttons" onclick="Calculator.input.value=Math.sin(Calculator.input.value)">
+                    </td>
+                    <td>
+                        <input type="button" value="cos" class="buttons" onclick="Calculator.input.value=Math.cos(Calculator.input.value)">
+                    </td>
+                    <td>
+                        <input type="button" value="tan" class="buttons" onclick="Calculator.input.value=Math.tan(Calculator.input.value)">
+                    </td>
+                    <td>
+                        <input type="button" value="/" class="buttons" onclick="Calculator.input.value+='/'">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" value="1" class="buttons" onclick="Calculator.input.value+='1'">
+                    </td>
+                    <td>
+                        <input type="button" value="2" class="buttons" onclick="Calculator.input.value+='2'">
+                    </td>
+                    <td>
+                        <input type="button" value="3" class="buttons" onclick="Calculator.input.value+='3'">
+                    </td>
+                    <td>
+                        <input type="button" value="+" class="buttons" onclick="Calculator.input.value+='+'">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" value="4" class="buttons" onclick="Calculator.input.value+='4'">
+                    </td>
+                    <td>
+                        <input type="button" value="5" class="buttons" onclick="Calculator.input.value+='5'">
+                    </td>
+                    <td>
+                        <input type="button" value="6" class="buttons" onclick="Calculator.input.value+='6'">
+                    </td>
+                    <td>
+                        <input type="button" value="-" class="buttons" onclick="Calculator.input.value+='-'">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" value="7" class="buttons" onclick="Calculator.input.value+='7'">
+                    </td>
+                    <td>
+                        <input type="button" value="8" class="buttons" onclick="Calculator.input.value+='8'">
+                    </td>
+                    <td>
+                        <input type="button" value="9" class="buttons" onclick="Calculator.input.value+='9'">
+                    </td>
+                    <td>
+                        <input type="button" value="*" class="buttons" onclick="Calculator.input.value+='*'">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" value="0" class="buttons" onclick="Calculator.input.value+='0'">
+                    </td>
+                    <td>
+                        <input type="button" value="." class="buttons" onclick="Calculator.input.value+='.'">
+                    </td>
+                    <td>
+                        <input type="button" value="C" class="buttons" onclick="Calculator.input.value=''">
+                    </td>
+                    <td>
+                        <input type="button" value="=" class="buttons" onclick="Calculator.input.value=eval(Calculator.input.value)">
+                    </td>
+                </tr>
+                
+
+            </table>
+        </form>
+    </center>
+</body>
+</html>
