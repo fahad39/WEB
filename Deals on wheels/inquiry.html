@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+<link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    
+    <link rel="stylesheet"  href="E:\website\pages\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css"/>
+   
+
+     <script type="text/javascript">
+         
+        function cancelform()
+        {
+            
+            
+        }
+        function myform(){
+            if(document.form.Name.value=='')
+                {
+                    alert("Please enter your name");
+                    return false;
+                }
+            if(document.form.mail.value=='')
+                {
+                    alert("Please enter your email");
+                    return false;
+                }
+            if(document.form.pass.value=='')
+                {
+                    alert("Please enter your Password");
+                    return false;
+                }
+            if(document.form.num.value=='')
+                {
+                    alert("Please enter your Phone Number");
+                    return false;
+                }
+            if(document.form.window.value=='')
+                {
+                    alert("Please Select your windows");
+                    return false;
+                }
+            
+        }
+    </script>
+   
+    <style>
+    .table
+    {
+
+    }
+        .td{
+            text-align:left;
+            font-size:x-large;
+            color:royalblue;
+
+          }
+
+        div.info{
+            font-family:'Times New Roman';
+            font-size:20px;
+            color:royalblue;
+        }
+
+      input{
+          
+          color:royalblue;
+          font-family:Forte;
+      }
+
+      body
+      {
+        background-image: url(footer.jpg);
+      }
+   
+
+    </style>
+</head>
+<body>
+     <div id="menu" style="margin:0px;padding: 0;">
+       
+        <ul id="ul" style="float:left;">
+            <li class="navigation"><a href="home.html">HOME</a></li>
+            <li class="navigation">
+                <a href="vehicles.html">VEHICLES</a>
+                <ul class="droplist">
+                    <li class="list"><a href="https://www.bugatti.com/chiron/">Bugatti</a></li>
+                    <li class="list"><a href="https://www.lamborghini.com/en-en/models/one-off/veneno-roadster">Lamborghini</a></li>
+                    <li class="list"><a href="https://www.ferrari.com/en-PK">Ferrari</a></li>
+                    <li class="list"><a href="https://global.astonmartin.com/en-us">Aston Martin</a></li>
+                   
+                </ul>
+
+
+            </li>
+            <li class="navigation"><a href="Racing.html">RACING</a></li>
+        </ul>
+
+           <img src="96.png" height="150px" width="250px;"  style="margin-left:40px;position:relative;z-index: 10;" />
+
+        <ul id="ul">
+            <li class="navigation">
+                <a href="Engineering.html">ENGINEERING</a>
+
+                <ul class="droplist">
+                    <li class="list"><a href="http://www.amb-aero.com/">AeroDynamics</a></li>
+                    <li class="list"><a href="http://www.speedhunters.com/">Speed</a></li>
+                    <li class="list"><a href="http://www.carbodydesign.com/">Body</a></li>
+                </ul>
+
+            </li>
+            <li class="navigation"  style="background-color: #212323;border-bottom:3px solid gold;"><a href="#">INQUIRY</a></li>
+            <li class="navigation"><a href="Aboutus.html">ABOUT US</a></li>
+
+        </ul>
+        
+
+        </div>
+
+
+    <h1 style="font-family: Forte; color: royalblue;">Deals On Wheels <br />Help Center</h1>
+        
+    
+        <center>
+            <form name="form" onSubmit="return myform();return cancelform();" >
+            <fieldset style="width:30% ;border:inset;font-family:Forte;">
+            <legend style="font-size:xx-large;color:royalblue;"><b>Inquiry Form</b></legend>
+            <table cellspacing="18" id="table">
+            <b>
+            <tr>
+                <td class="td"> Name :</td>
+                 <td class="td"> <input type="text" placeholder="Full Name" name="Name"/> </td>
+            </tr>
+                       
+                <tr>
+                    <td class="td"> Email : </td>
+                    <td class="td"> <input type="email" placeholder="Email" name="mail" /> </td>
+                </tr>
+                        
+            <tr>
+            <td class="td">Password:</td>
+            <td class="td">    <input type="password" placeholder="Password" name="pass"/></td>
+                    </tr>
+                        
+            <tr>
+            <td class="td"> Gender :</td>
+            <td class="td"> <input type="radio" name="Gender" /> Male <input type="radio" name="Gender" /> Female </td>
+                        </tr>
+                        
+            <tr>
+            <td class="td"> Number :</td>
+            <td class="td"> <input type="tel" placeholder="Phone Number" name="num" /> </td>
+                        </tr>
+                        
+            <tr>
+                <td > Windows:</td> 
+            <td class="td">
+            <select  name="window">
+            <option>            </option>
+            <option> Windows 98 </option>
+            <option> Windows 2000 </option>
+            <option> Windows ME </option>
+            <option> Windows XP </option>
+            <option> Windows Vista </option>
+            <option> Windows 7 </option>
+            <option> Windows 8 </option>
+            <option> Windows 8.1 </option>
+            <option> Windows 10 </option>
+                            </select>
+                            </td>
+                        </tr>
+                        
+            
+                        
+            <tr>
+            <td class="td"> Country : </td>
+            <td class="td">
+            <select>
+            <option>Select Country</option>
+            <option> Australia</option>
+            <option>Canda</option>
+            <option>UAE</option>
+            <option>USA</option>
+            <option>Mexico</option>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>China</option>
+            <option>Saudia Arabia</option>
+                                </select> 
+                            </td>
+                        </tr>
+                        
+            <tr>
+            <td class="td"> Enter Problem :</td>
+            <td class="td"> <textarea name="message" cols="40" rows="7"></textarea>  </td>
+                        </tr>
+                        
+            <tr>
+            <td class="td"></td>
+                
+            <td class="td"><input type="submit" value="Submit"  name="submit" style="color:royalblue;border:none;font-family:Forte;font-weight:bold;font-size:25px;background:none;"/> 
+                <input type="reset" value="Cancel" name="cancel" style="color:royalblue;border:none;font-family:Forte;font-weight:bold;font-size:25px;background:none;"  />   </td>
+                            
+             </tr>
+
+             </b>
+                </table>
+                       </fieldset>
+            </form>
+
+        </center>   
+        
+        
+    <div class="info">
+    
+
+
+<div class="footer">
+  <div class="icon"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></div>
+  <div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+  <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+  <div class="icon"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div>
+  <div class="icon"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+  <div class="icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
+  <div class="icon"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></div>
+  <div><p style="font-weight: bolder;color: white;">Copyright &copy 2017 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group. All rights reserved. VAT no. IT 00591801204</p> </div>
+       </div>
+</body>
+</html>

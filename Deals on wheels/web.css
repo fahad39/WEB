@@ -1,0 +1,161 @@
+        td
+  {
+     text-align:center;
+   }
+
+table
+{
+   border-collapse:collapse;
+}
+
+
+#icons
+{
+	
+	position: relative;
+	width: 550px;
+   padding-top: 30px;
+   font-color:white;
+
+}
+
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: Entypo;
+  font-size: 35px;
+  text-align: center;
+  color: #bbb;
+  border-radius: 50%;
+  background: #eee;
+  overflow: hidden;
+  transition: color .3s;
+}
+
+.icon:hover 
+{
+  color: #59d;
+  cursor: pointer;
+}
+
+#chiron
+{
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	height="520";
+	 width="661";
+	 position: relative;
+	 padding-left: 0px;
+	 float: left;
+}
+
+#veyron
+{
+	position: relative;
+	padding-left: 0px;
+	float: left;
+	   -webkit-clip-path: polygon(100% 0, 66% 100%, 0 100%, 0 23%, 30% 0);
+}
+
+
+#aventador
+{
+	position: relative;
+	padding-left: 0px;
+	float: left;
+	clip-path: polygon(100% 0, 66% 100%, 0 100%, 0 23%, 43% 0);
+}
+
+#aventadorback
+{
+	position: relative;
+	padding-left: 0px;
+	padding-top: 0px;
+	float: left;
+clip-path: polygon(0 0, 0 49%, 100% 0);
+}
+
+#ferrari
+{
+	position: relative;
+	padding-left: 0px;
+	float: left;
+	clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+}
+
+#ghost
+{
+	position: relative;
+	padding-left: 0px;
+	float: left;
+	-webkit-clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 0);
+}
+
+#roof
+{
+	position: relative;
+	padding-left: 0px;
+	float: left;
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 68% 73%, 0 74%);
+}
+
+#rooflogo
+{
+	position: relative;
+	padding-right: 0px;
+	float:right;
+	-webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+}
+
+#aston
+{
+	position: relative;
+	padding-left: 0px;
+	float:left;
+	clip-path: polygon(0% 0%, 91% 0, 100% 50%, 84% 100%, 0% 100%);
+}
+
+#venon
+{
+	position: relative;
+	padding-right: 0px;
+	float:right;
+-webkit-clip-path: polygon(77% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#engine
+{
+	
+	width: 100%;
+	margin-top: 100px;
+	color: black;
+
+}
+
+#fengine
+{
+	width: 100%;
+	margin-top: 100px;
+	color: black;
+}
+
+#air
+{
+	width: 100%;
+	margin-top: 100px;
+	color: black;
+
+}
+
+
+
+

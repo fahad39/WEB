@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+<link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    
+    <link rel="stylesheet"  href="E:\website\pages\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css"/>
+   
+
+     <script type="text/javascript">
+         
+        function cancelform()
+        {
+            
+            
+        }
+        
+
+        function myform(){
+            var a=document.getElementById("btn");
+            if(a)
+            {
+            var name=document.form.Name.value;
+            var lname=document.form.lName.value;
+            var email=document.form.mail.value;
+            var pass=document.form.pass.value;
+            var cpass=document.form.cpass.value;
+            var check=/[a-z]+/;
+            var check2=/[A-Z]+/;
+            var check3=/[0-9]+/;
+            var check4=/[a-z,A-Z]+/;
+            var check5=/@,.com/;
+            var check6=/[@,#,$]+/;
+            var check7=/^[0-9]+/
+            var check8=/[A-Z]+$/;
+            var check9=/[a-z]+$/;
+
+
+            if( check.test(name) && check2.test(name))
+                {
+                    document.getElementsByName(Name).style.borderColor="red";
+                    
+                }
+                if( check7.test(lname) && check8.test(lname) && check9.test(lname))
+                {
+                    document.getElementsByName(lName).style.borderColor="red";
+                    
+                }
+           
+            if(check5.test(email))
+                {
+                    document.getElementsByName(mail).style.borderColor="red";
+                    
+                }
+            if(check.test(pass) && check2.test(pass) && check3.test(pass) && check6.test(pass) && pass==cpass )
+                {
+                    document.getElementsByName(pass).style.borderColor="red";
+                    
+                }
+           
+            }
+            
+        }
+    </script>
+   
+    <style>
+    
+        .td{
+            text-align:left;
+            font-size:x-large;
+            color:royalblue;
+
+          }
+
+        div.info{
+            font-family:'Times New Roman';
+            font-size:20px;
+            color:royalblue;
+        }
+
+      input{
+          
+          color:royalblue;
+          font-family:Forte;
+      }
+
+      body
+      {
+        background-image: url(footer.jpg);
+      }
+   
+
+    </style>
+</head>
+<body>
+     
+
+           
+    
+        <center>
+            <form name="form" >
+            <fieldset style="width:30% ;border:inset;font-family:Forte;">
+            <legend style="font-size:xx-large;color:royalblue;"><b>Inquiry Form</b></legend>
+            <table cellspacing="18" id="table">
+            <b>
+            <tr>
+                <td class="td"> Name :</td>
+                 <td class="td"> <input type="text" placeholder=" Name" name="Name"/> </td>
+            </tr>
+            <tr>
+                <td class="td">Last Name :</td>
+                 <td class="td"> <input type="text" placeholder="Last Name" name="lName"/> </td>
+            </tr>
+                       
+                <tr>
+                    <td class="td"> Email : </td>
+                    <td class="td"> <input type="text" placeholder="Email" name="mail" /> </td>
+                </tr>
+                        
+            <tr>
+            <td class="td">Password:</td>
+            <td class="td">    <input type="password" placeholder="Password" name="pass"/></td>
+                    </tr>
+                    <tr>
+                        <td class="td">Confirm Password:</td>
+                        <td class="td">    <input type="password" placeholder="cPassword" name="cpass"/></td>
+                                </tr>
+                                    
+                        
+            <tr>
+            <td class="td"></td>
+                
+            <td class="td"><button type="submit" onclick="myform()" id="btn" style="color:royalblue;border:none;font-family:Forte;font-weight:bold;font-size:25px;background:none;">Submit</button>
+               </td> 
+               
+             </tr>
+
+             </b>
+                </table>
+                       </fieldset>
+            </form>
+
+        </center>   
+        
+        
+    <div class="info">
+    
+
+</body>
+</html>
